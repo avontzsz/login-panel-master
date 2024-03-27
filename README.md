@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Tela de Login usando React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto simples que demonstra a implementação de uma tela de login utilizando React. O objetivo é fornecer uma interface de usuário amigável e funcional para autenticar os usuários em um sistema web.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Autenticação de Usuário:** Os usuários podem inserir suas credenciais (nome de usuário e senha) para acessar o sistema.
+- **Validação de Entrada:** As entradas do usuário são validadas para garantir que os campos não estejam vazios e atendam aos critérios de formato adequados.
+- **Feedback Visual:** Feedback visual é fornecido ao usuário para indicar se a autenticação foi bem-sucedida ou se ocorreu algum erro durante o processo.
+- **Navegação entre Telas:** Após o login bem-sucedido, os usuários podem ser redirecionados para outras telas do aplicativo.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React:** Uma biblioteca JavaScript para criar interfaces de usuário.
+- **React Router:** Para controlar a navegação entre diferentes telas na aplicação.
+- **CSS (Cascading Style Sheets):** Para estilizar os componentes e criar uma interface de usuário atraente.
+- **Firebase (opcional):** Pode ser usado para autenticar os usuários e armazenar suas informações de forma segura.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalação e Execução
 
-### `npm test`
+1. Clone o repositório para sua máquina local:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/avontzsz/login-panel-master.git
+```
 
-### `npm run build`
+2. Navegue até o diretório do projeto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+cd login-panel-master
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Instale as dependências:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+```
 
-### `npm run eject`
+4. Inicie o servidor de desenvolvimento:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Abra seu navegador e acesse `http://localhost:3000` para visualizar a aplicação em execução.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Estrutura de Arquivos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `src/`
+  - `components/`: Contém os componentes React utilizados na construção da tela de login.
+  - `pages/`: Páginas da aplicação, incluindo a tela de login.
+  - `App.js`: Componente principal que define a estrutura da aplicação e suas rotas.
+  - `index.js`: Ponto de entrada da aplicação React.
+- `public/`: Contém arquivos estáticos, como HTML e ícones.
 
-## Learn More
+## Contribuindo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contribuições são bem-vindas! Se você deseja melhorar este projeto, por favor, abra uma issue ou envie um pull request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licença
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
